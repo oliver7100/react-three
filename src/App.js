@@ -45,7 +45,7 @@ function App() {
       <Canvas colorManagement camera={{ position: [0, 0, 120], fov: 70 }}>
         <Lights />
         <Suspense fallback={null}>
-          <HTMLContent modelPath="/scene.gltf" positionY={250}>
+          <HTMLContent modelPath="yellowchair/yellowchair.gltf" positionY={250}>
             <div className="container">
               <h1 className="title">Test</h1>
             </div>
